@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(mainBackground.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+}
+
+.loginWindow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+}
+
+button {
+  width: 250px;
+  height: 35px;
+  font-size: 25px;
+}
