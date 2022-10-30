@@ -10,6 +10,7 @@
   width: 100%;
   background-size: cover;
   background-position: right;
+  opacity: 0.8;
 }
 
 .loginWindow {
@@ -26,6 +27,11 @@ form {
   align-items: center;
   gap: 15px;
   flex-wrap: wrap;
+  border: 10px;
+  border-style: solid;
+  border-color: darkblue;
+  border-radius: 20px;
+  background-color: darkblue;
 }
 
 input {
@@ -37,4 +43,11 @@ button {
   width: 250px;
   height: 35px;
   font-size: 25px;
+  border-radius: 10px;
+  border-color: rgb(70, 70, 191);
+  color: black;
+}
+
+button:hover {
+  color: darkblue;
 }
