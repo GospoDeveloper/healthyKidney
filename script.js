@@ -1,19 +1,11 @@
-const utilizator = document.getElementById("utilizator").value;
-const parola = document.getElementById("parola").value;
+const utilizator = document.getElementById("utilizator");
+const parola = document.getElementById("parola");
 const login = document.getElementById("btnLogare");
 const form = document.getElementById("form");
 
-form.addEventListener("submit", (e) => {
+login.addEventListener("click", function (e) {
   e.preventDefault();
+  const numeUtilizator = utilizator.value;
+  const parolaUtilizator = parola.value;
+  console.log(numeUtilizator, parolaUtilizator);
 });
-console.log(login);
-
-const check = function (utilizator, parola) {
-  console.log("Click");
-  console.log(utilizator, parola);
-  if (utilizator === "Alex" && parola === "parola") {
-    alert("Welcome");
-  }
-};
-
-login.addEventListener("click", check);
