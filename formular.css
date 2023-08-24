@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  color: white;
+  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  border-style: solid;
+  border-color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+input {
+  font-size: 20px;
+}
+button {
+  width: 250px;
+  height: 35px;
+  font-size: 25px;
+  color: white;
+  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  align-self: center;
+  margin-top: 40px;
+}
+
+h1:hover {
+  color: greenyellow;
+  cursor: default;
+}
+
+button:hover {
+  color: greenyellow;
+}
