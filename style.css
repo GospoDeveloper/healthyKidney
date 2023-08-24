@@ -200,4 +200,20 @@ p {
     align-items: center;
     margin-top: 150px;
   }
+  .descriere {
+    width: 450px;
+    height: 300px;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .despre {
+    font-size: 25px;
+  }
+  .titlu-inregistrare {
+    font-size: 30px;
+  }
 }
