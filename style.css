@@ -187,3 +187,17 @@ p {
 .titlu-inregistrare {
   font-size: 40px;
 }
+
+@media (max-width: 900px) {
+  .continut {
+    display: none;
+  }
+
+  .loginWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+}
