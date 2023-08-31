@@ -70,11 +70,12 @@ img {
 
 .despre {
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 70px;
 }
 
 .descriere {
-  width: 600px;
+  width: 800px;
   height: 300px;
   font-size: 20px;
   color: black;
@@ -123,7 +124,7 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 .imagini {
@@ -144,8 +145,8 @@ input {
 }
 
 .titlu {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,30 +190,41 @@ p {
 }
 
 @media (max-width: 900px) {
-  .continut {
-    display: none;
+  .titlu-principal {
+    font-size: 20px;
   }
 
-  .loginWindow {
+  .bun-venit {
+    font-size: 15px;
+  }
+
+  .imagini {
+    flex-direction: column;
+  }
+  .hoverImages {
+    width: 100px;
+    height: 100px;
+  }
+  .float-1,
+  .float-2,
+  .float-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+  }
+  .titlu {
+    margin: 0;
+  }
+  .despre {
+    font-size: 20px;
+    margin: 0;
   }
   .descriere {
-    width: 450px;
-    height: 300px;
+    font-size: 16px;
+    width: 80%;
   }
 
-  img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .despre {
-    font-size: 25px;
-  }
   .titlu-inregistrare {
     font-size: 30px;
   }
