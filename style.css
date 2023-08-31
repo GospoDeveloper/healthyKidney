@@ -189,21 +189,23 @@ p {
   font-size: 40px;
 }
 
+/* OPTIMIZARE MOBILE */
+
 @media (max-width: 900px) {
   .titlu-principal {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .bun-venit {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .imagini {
     flex-direction: column;
   }
   .hoverImages {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   .float-1,
   .float-2,
@@ -217,15 +219,26 @@ p {
     margin: 0;
   }
   .despre {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
   }
   .descriere {
-    font-size: 16px;
+    font-size: 15px;
     width: 80%;
   }
 
   .titlu-inregistrare {
     font-size: 30px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  a {
+    padding: 0;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: row;
   }
 }
