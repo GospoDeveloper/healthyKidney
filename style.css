@@ -40,7 +40,7 @@
 }
 
 .top-container {
-  background-image: url(../img/imgBackground1.jpg);
+  background-image: url(./img/imgBackground1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -51,7 +51,7 @@
 }
 
 .middle-container {
-  background-image: url(../img/imgBackground2.jpg);
+  background-image: url(./img/imgBackground2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -82,7 +82,7 @@ img {
 }
 
 .bottom-container {
-  background-image: url(../img/imgBackground3.jpg);
+  background-image: url(./img/imgBackground3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
