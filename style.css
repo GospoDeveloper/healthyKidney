@@ -40,7 +40,7 @@
 }
 
 .top-container {
-  background-image: url(img/imgBackground1.jpg);
+  background-image: url(../img/imgBackground1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -51,7 +51,7 @@
 }
 
 .middle-container {
-  background-image: url(img/imgBackground2.jpg);
+  background-image: url(../img/imgBackground2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -82,7 +82,7 @@ img {
 }
 
 .bottom-container {
-  background-image: url(img/imgBackground3.jpg);
+  background-image: url(../img/imgBackground3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -187,6 +187,39 @@ p {
 
 .titlu-inregistrare {
   font-size: 40px;
+  width: 300px;
+}
+
+hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.footer {
+  margin-top: auto;
+  font-size: 15px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 245px;
+  height: 300px;
 }
 
 /* OPTIMIZARE MOBILE */
