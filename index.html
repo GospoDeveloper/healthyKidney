@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Healthy Kidney</title>
-    <link rel="stylesheet" href="style.css" , type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" , type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,7 +31,7 @@
           <div class="float-1">
             <img
               class="hoverImages"
-              src="./img/digital-tablet-surrounded-by-medical-equipment-alarm-clock-with-succulent-plant-green-backdrop.jpg"
+              src="../img/digital-tablet-surrounded-by-medical-equipment-alarm-clock-with-succulent-plant-green-backdrop.jpg"
               alt="picture"
             />
             <p>Totul simplu și digitalizat</p>
@@ -39,7 +39,7 @@
           <div class="float-2">
             <img
               class="hoverImages"
-              src="./img/stethoscope-pills.jpg"
+              src="../img/agent-filling-form-health-insurance-with-patient.jpg"
               alt="picture"
             />
             <p>Completează formularul rapid și</p>
@@ -48,7 +48,7 @@
           <div class="float-3">
             <img
               class="hoverImages"
-              src="./img/top-view-fresh-vegetables-with-greens-dark-blue-background-salad-snack-vegetable-food.jpg"
+              src="../img/buddha-bowl-dish-with-vegetables-legumes-top-view.jpg"
               alt="picture"
               width="300"
               height="300"
@@ -59,9 +59,10 @@
       </div>
       <div class="loginWindow" id="loginWindow">
         <h1>Healthy Kidney</h1>
-        <form id="form" method="POST">
+        <form id="formLogin" method="POST">
           <input
             class="inputUtilizator"
+            itemid="inputUtilizator"
             type="text"
             placeholder="Utilizator@gmail.com"
             id="utilizator"
@@ -69,11 +70,12 @@
           <input
             class="inputParola"
             type="password"
+            itemid="inputParola"
             placeholder="Parola"
             id="parola"
           />
-          <button class="btnLogin" id="btnLogare" type="submit">Logare</button>
-          <button class="btnForgot">Resetează parola</button>
+          <button class="btnLogin" id="btnLogin">Logare</button>
+          <button class="btnForgot" id="btnForgot">Resetează parola</button>
         </form>
       </div>
     </div>
@@ -96,29 +98,46 @@
       </p>
     </div>
     <div class="bottom-container" id="bottom">
-      <h1 class="titlu-inregistrare">Înregistrare cont</h1>
-      <form id="formRegister" method="POST">
-        <input
-          class="inputCreeareEmail"
-          type="text"
-          placeholder="Utilizator@gmail.com"
-          id="utilizatorEmail"
-        />
-        <input
-          class="inputCreeareParola"
-          type="password"
-          placeholder="Parola"
-          id="creeareParola"
-        />
-        <input
-          class="inputReintroducereParola"
-          type="password"
-          placeholder="Repetare Parola"
-          id="repetareParola"
-        />
-        <button class="btnRegister">Creează cont</button>
-      </form>
+      <div class="register">
+        <h1 class="titlu-inregistrare">Înregistrare cont</h1>
+        <form id="formRegister" method="POST">
+          <input
+            class="inputCreeareEmail"
+            itemid="inputCreeareEmail"
+            type="text"
+            placeholder="Utilizator@gmail.com"
+            id="utilizatorEmail"
+          />
+          <input
+            class="inputCreeareParola"
+            itemid="inputCreeareParola"
+            type="password"
+            placeholder="Parola"
+            id="creeareParola"
+          />
+          <input
+            class="inputReintroducereParola"
+            itemid="inputReintroducereParola"
+            type="password"
+            placeholder="Repetare Parola"
+            id="repetareParola"
+          />
+          <button class="btnRegister" id="btnRegister" type="submit">
+            Creează cont
+          </button>
+        </form>
+      </div>
+      <div class="footer">
+        <hr />
+        <footer>
+          <a href="">©️Copywrite Gospodaru Alexandru</a>
+          <a href="https://www.freepik.com/"
+            >Images: https://www.freepik.com/</a
+          >
+        </footer>
+      </div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="../js/script.js"></script>
   </body>
 </html>
